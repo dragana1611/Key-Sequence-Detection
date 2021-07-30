@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  position: relative;
+  background-color: lightcyan;
+  height: 100vh;
+  width: 100vh;
+}
+.sCode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+input[type='text'] {
+  background: #f9fff4;
+  padding: 12px;
+  border-radius: 3px;
+  width: 250px;
+  font-size: 20px;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.5);
+}
+img {
+  width: 100px;
+}
+p {
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+}
